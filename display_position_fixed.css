@@ -1,0 +1,8 @@
+.title {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+/* An element can be fixed to a specific position on the page (regardless of user scrolling) by setting it's position to fixed and 
+   accompanying it with the familiar offset properties top, bottom, left, right. This is often used for navigation bars. */
+  

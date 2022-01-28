@@ -1,0 +1,8 @@
+h1 {
+    color: red;
+}
+   
+.headline {
+    color: firebrick;
+}
+/* .headline ruleset would override the h1 ruleset.  ID > class > type is the heiarchy for override.  Always use type selector when possible then class then ID. */

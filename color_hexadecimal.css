@@ -1,0 +1,9 @@
+.green {
+    background-color: #8FBC8F;
+}
+/* Colors can be specified using hexadecimal characters.  a hex color begins with a hash character followed by three or six characters
+   The characters represent values for red, blue and green. Hex colors whose number pairs are the same characters can be represented 
+   with both three characters and six characters. 
+   By adding a two-digit hexadecimal value to the end of the six-digit representation (#52BC8280), 
+   or a one-digit hexadecimal value to the end of the three-digit representation (#F003), 
+   you can change the opacity of a hexadecimal color. Hex opacity ranges from 00 (transparent) to FF (opaque). */

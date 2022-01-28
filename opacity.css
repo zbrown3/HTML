@@ -1,0 +1,5 @@
+.overlay {
+    opacity: 0.5;
+}
+/* Opacity changes transparency of the element. It's measured from 0 to 1 with 1 representing 100%/full visibility 
+   and 0 representing 0%/fully invisible.  */

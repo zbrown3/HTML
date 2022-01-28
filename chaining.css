@@ -1,0 +1,4 @@
+h2.destination {
+    font-family: Tahoma;
+}
+/* This chain selector makes sure only the h2 elements with a class of destination will be changed by the ruleset. */

@@ -1,0 +1,9 @@
+a[href*='florence'] { /* To create a ruleset for attributes the selector syntax is [attribute] which targets all elements with that attribute*/
+    color: lightgreen;
+}
+a[href*='beijing'] {
+    color: lightblue;
+}
+a[href*='seoul'] { /* To create a ruleset for attributes with a specific value type[attribute*='value'] */
+    color: lightpink;
+}

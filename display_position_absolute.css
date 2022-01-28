@@ -1,0 +1,11 @@
+header {
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    position: absolute;
+    width: 100%;
+}
+
+
+/* Setting an element's position to absolute means all other elements on the page will ignore the element and act like it is not present on the page.
+   The element will be positioned releative to it's closest positioned parent element, while offset properties can be used to determine the
+   final position from there. */

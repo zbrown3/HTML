@@ -1,0 +1,6 @@
+* {
+    box-sizing: border-box;
+}
+/* box-sizing default is content-box. Code above resets the box model to border-box for all HTML elements.  
+  In this box model, the height and width of the box will remain fixed.  The border thickness and padding will
+  be included inside of the box, which means the overall dimensions of the box do not change. */  

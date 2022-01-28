@@ -1,0 +1,36 @@
+p {
+    border: 1px solid aquamarine;
+    margin: 20px;
+}
+/* The margin property is used to specify the size of the space directly outside the box. In this example 20 pixels of space will be 
+   placed on the outside of the paragraph's box on all four sides, meaning that other HTML elements on the page cannot come withinin
+   20 pixels of the pagraph's border.  Following properties can also be used:
+   margin-top
+   margin-right
+   margin-bottom
+   margin-left 
+   Each property affects only one side of the box, providing more flexibility in customization. */
+
+p {
+    margin: 6px 10px 5px 12px; /* values for top right bottom left */
+}
+
+p {
+    margin: 5px 12px 4px;
+}
+/* If left and right sides are equal then 3 values can be used where the second value represents both left and right. */  
+
+p {
+    margin: 20px 10px;
+}
+/* If the top/bottom have the same value and left/right has the same value then 2 values can be used where the first value
+   represents the top and bottom and the second value represents the left and right. */
+
+div.headline {
+    width: 400px;
+    margin: 0 auto;
+}
+/* Margin property can also be used to center content.  In the example the 0 sets the top/bottom margins to 0 pixels and
+   the auto value instructs the browser to adjust the left and right margins until the element is centered within it's containing elements.
+   In order to center an element a width must be set for that element.  */
+     

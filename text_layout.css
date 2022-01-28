@@ -1,0 +1,22 @@
+p {
+    letter-spacing: 2px;
+}
+/* letter spacing is used to set the horizontal spacing between the individual characters in an element. 
+ This property takes length values in units such as 2px or .5em */
+
+ h1 {
+    word-spacing: 0.3em;
+}
+/*Word spacing sets the space between words.*/
+
+p {
+    line-height: 1.4;
+}
+/* Line height is used to set how tall each line containing text will be. Line height values 
+  can be unitless number such as 1.2 or a length value such as 12px, 5% or 2em */
+
+  h1 {
+    text-align: right;
+}
+/*text align is used to align text in the parent element. */
+  

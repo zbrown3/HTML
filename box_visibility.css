@@ -1,0 +1,8 @@
+.future {
+    visibility: hidden;
+}
+/* Elements can be hidden from view with the visibility property. The property can be set to one of the following values:
+  hidden - hides element
+  visible - displays an element
+  collapse - collapse an element 
+  Hidden elements can still be viewed in the browser source code */

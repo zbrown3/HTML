@@ -1,0 +1,19 @@
+div {
+    width: 200px;
+    float: left;
+}
+   
+  div.special {
+    clear: left;
+}
+/* The clear property specifies how elements should behave when they bump into each other on the page.
+It can take the following values:
+left - the left side of the element will not touch any other element within the same containing element.
+right - the right side of the element will not touch any other element within the same containing elememnt.
+both - neither side of the element will touch any of other element within the same containing elememnt.
+none - the element can touch either side.
+
+In the example all of divs on the page are floated to the left side.  The element with class special did not move all the way to 
+the left because a taller div blocked it's positioning.  By setting the clear property to the left, the special div will be moved
+all the way to the left side of the page. */
+  

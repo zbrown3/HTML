@@ -1,0 +1,20 @@
+* {
+    border: 1px solid red;
+}
+  
+p {
+    color: green;
+}
+  
+h1 {
+    color: maroon;
+}
+  
+.title { /* to create a ruleset for a class use a class selector ".<classname>" */
+    color: teal;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/* For multiple classes element is setup: <h1 class="title uppercase">Title</h1> */
+

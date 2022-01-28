@@ -1,0 +1,8 @@
+h1 {
+    color: rgb(23, 45, 23);
+}
+body {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+/* RGB  colors uses three decimal values that represent (red, green, blue).  Each can have a decimal value from 0 to 255.  
+   To add opacity use rgba(red,green,blue,opacity) with a value between 0 and 1 for opacity.  0.5 being half transparent. */ 

@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <p class="centered" id="logo">Codecademy</p>
+	
+  	<script src="script1.js"></script>
+  	<script src="script2.js"></script>
+  </body>
+</html>
+
+<!--Elements including scripts are parsed in the order they appear in the HTML file.  When the HTML parser encounters a script
+element, it loads the script then exectures its contents before parsing the rest of th HTML.  The HTML parser does NOT 
+process the next element in the HTML file until it loads and executres the script element, thus leading to a delay in load time
+and resulting in a poor user experience.  Scripts are loaded sequentially, so if one script depends on another script,
+they should be placed in that very order inside the HTML file. -->

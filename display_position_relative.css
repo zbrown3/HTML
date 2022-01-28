@@ -1,0 +1,23 @@
+.green-box {
+    background-color: green;
+    position: relative;
+}
+/* Position relative value allows you to position an element relative to it's default position on the web page. */
+
+.green-box {
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+/* The position relative value instructs the broswer to expect a relative positioning of the element but does not specifiy where the element
+   should be positioned on the page.  This is done by accompanying the position delcaration with one or more of the following offset properties
+   that will jmove the element away from it's default static position:
+   top - moves the element down from the top
+   bottom- moves the element up from the bottom
+   left - moves the element away from the left side (to the right.)
+   right - moves the element away from the right side (to the left.) 
+   Values can be specified in pixels, ems, or percentages to dial in exactly how far the element needs to moves. 
+   Offset properties will not work if the position property is set to default. 
+   In the example, the element class will be moved down 50 pixels and to the right 120 pixels from its default static position. */
+  

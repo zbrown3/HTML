@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MyParagraphFont';
+    src: url('fonts/Roboto.woff2') format('woff2'),
+         url('fonts/Roboto.woff') format('woff'),
+         url('fonts/Roboto.ttf') format('truetype');
+}
+/*Font face selector should be defined at the very top of the stylesheet.  
+  inside the declaration block the font family is used to set the custom name of the downloaded font. 
+  the src property uses three values with each specifying the relative path to the font file and it's format. */
+
+p {
+    font-family: 'MyParagraphFont', sans-serif;
+}
+  

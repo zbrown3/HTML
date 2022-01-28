@@ -1,0 +1,16 @@
+<html> 
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add your script tag here -->
+		<script src="./script.js"></script> 
+  </head>
+
+  <body onclick="newStyle();">
+    
+    <p class="centered" id="logo">Codecademy</p>
+
+	</body>
+
+</html>
+
+<!--src attribute for script links to an external javascript file-->

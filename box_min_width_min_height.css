@@ -1,0 +1,6 @@
+p {
+    min-width: 300px;
+    max-width: 600px;
+}
+/* Min max width and height ensures content remains legible by limiting the minimum and maximum widths/heights of an element. */
+  

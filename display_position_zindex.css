@@ -1,0 +1,17 @@
+.blue-box {
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+}
+   
+  .green-box {
+    background-color: green;
+    position: relative;
+    top: -170px;
+    left: 170px;
+}
+/* The z-index property controls how far back or how far forward an element should appear on the web page when elements overlap.
+  This can be thought of as the depth of elements, with deeper elements appearing behind shallower elements.
+  The z-index property accepts integer values.  Depending on their values, the integers instruct the browser on the order in which elements
+  should be layered on the web page. z-index does not work on static elements. In the example the blue box has a z-index of 1 which
+  moves the element forward because the green box does not have a z-index value which means it's default value is 0. */  

@@ -1,0 +1,14 @@
+.green-section {
+    width: 50%;
+    height: 150px;
+}
+   
+  .orange-section {
+    background-color: orange;
+    width: 50%;
+    float: right;
+}
+
+/* To move an element as far left or right as possible in the contair the float property is used.
+float property is often used with one of these values: left/right. Floated elements must have a width specified. */
+  

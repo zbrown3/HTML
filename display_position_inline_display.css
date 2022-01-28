@@ -1,0 +1,8 @@
+h1 {
+    display: inline;
+}
+/* Every HTML element has a default display value that dictates if it can share horizontal space with other elements.  
+Some elements fill the entire browswer from left to right regardless of the size of their content.  Inline display
+is the default display for some elmenets such as <em> <strong> <a>.  Inline elements have a box that wraps tightly around their
+content, only taking up the amount of space necessary to display their content and not requiring a new line after each element. 
+The height and width of these elements cannot be specified in the CSS document.*/  

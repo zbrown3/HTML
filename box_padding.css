@@ -1,0 +1,27 @@
+p.content-header {
+    border: 3px solid coral;
+    padding: 10px;
+}
+/* The space between the contents of a box and the borders of a box is known as padding. 
+   The example puts 10 pixels of space between the content of the paragraph(the text) and the borders on all four sides.
+   Following properties can also be used to be more specific about the padding:
+   padding-top
+   padding-right
+   padding-bottom
+   padding-left */
+
+p.content-header {
+    padding: 6px 11px 4px 9px; 
+}
+/*Padding shorthand can be utilized for the four properties. The four values correspond to the amount of padding on each side
+  in a clockwise rotation.  The values are top, right, bottom, left. 
+  If the left and right sides of the content can be equal, the padding shorthand property allows for 3 values to specified. */
+
+p.content-header {
+    padding: 5px 10px 20px; /* first value sets the top, second value sets the left and right, third value sets the bottom. */
+}
+
+p.content-header {
+    padding: 5px 10px; /* Two values can be used if top/bottom are the same and left/right are the same.  First value for top/bottom and second for left/right */
+}
+  

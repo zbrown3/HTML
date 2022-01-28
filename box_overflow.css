@@ -1,0 +1,10 @@
+p {
+    overflow: scroll; 
+}
+/* Overlow property controls what happens to content that spills, or overflows outside it's box. 
+   Common values are: 
+   hidden - any content that overflows will be  hidden from view.
+   scroll - a scrollbar will be added to the element's box so that rest of the content can be viewed by scrolling. 
+   visible - the overflow content will be displayed outside of the containing element. This is the default value. 
+   The overflow property is set on a parent element to instruct the broswer on how to render child elements. 
+   For example, if a div's overflow property is set to scroll, all children of this dive will display overflowing content with a scroll bar. */  

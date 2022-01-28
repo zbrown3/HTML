@@ -1,0 +1,12 @@
+body {
+    background-color: hsl(60, 100%, 80%);
+}
+.midground {
+    background-color: hsla(225, 100%, 25%, 0.4);
+}
+/* HSL uses three values to determine the color.  First number represents the Hue, the value is a degree on a color wheel from 0-360.
+   Red = 0 degrees, Green = 120 degrees, Blue 240 degrees and back to Red at 360 degrees.  
+   Second value is Saturation which refers to the intensity or purity of the color. 
+   Saturation increases towards 100% as the color becomes richer and decreases towards 0% as the color becomes grayer.
+   Lightness refers to how light or dark the color is.  50% is normal lightness, towards 100% is light and 0% darker.
+   To add opacity use hsla(hue,sat,light,opacity) and use a value between 0 and 1 with 0.5 being half-transparent. */

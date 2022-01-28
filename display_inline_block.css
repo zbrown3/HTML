@@ -1,0 +1,7 @@
+.rectangle {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+}
+/*Inline-block display combines features of inline and block elements.  Inline-block elements can appear next to each other and we can specify
+their dimensions using width and height properties.  */

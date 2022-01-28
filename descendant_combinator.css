@@ -1,0 +1,4 @@
+.description h5 {
+    color: blueviolet;
+}
+/* descendant combinator ruleset targets child elements of a parent element with a specific class*/

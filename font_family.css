@@ -1,0 +1,13 @@
+h1 {
+    font-family: Garamond;
+}
+/* Changes typeface of text on webpage.  Font must be installed on the client's machine or downloaded with the page.
+   Websafe fonts are fonts that are supported across most browsers and Operating systems.
+   If Websafe fonts are not used then text may not display correctly.*/
+
+
+h1 {
+    font-family: 'Courier New';
+  
+} /*When font has two more than one name place the name in single quotes.*/
+  

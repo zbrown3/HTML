@@ -1,0 +1,8 @@
+p {
+    color: green;
+  }
+  
+h1 { /* h1 is the type selector for all h1 elements */
+    color: maroon;
+  }
+/* * is used as a universal type selector */

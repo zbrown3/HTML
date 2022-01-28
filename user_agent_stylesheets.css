@@ -1,0 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*All major browsers have a default stylesheet they use in the absence of an external stylesheet.  These stylesheets are user agent stylesheets. 
+  The code example above resets the default margin and padding values of all HTML elements.  It is often the first CSS rule in an external stylesheet. */
+  

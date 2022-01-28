@@ -1,0 +1,19 @@
+p {
+    font-weight: bold;
+}
+
+.left-section {
+    font-weight: 700;
+}
+   
+.right-section {
+    font-weight: bold; 
+}
+
+/* Determines how bold or thin text appears. Can take the following values: 
+   bold: Bold font weight. 
+   normal:  Normal font weight.  This is the default value.
+   lighter:  One font weight lighter than the element's parent value.
+   bolder:  One font weight bolder than the element's parent value.
+   For numerical values a range of 1(lightest) to 1000 (boldest) can be used. 
+   Font weight of 400 is considered normal and 700 is equal to bold. */

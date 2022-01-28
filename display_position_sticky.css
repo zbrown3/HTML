@@ -1,0 +1,10 @@
+.box-bottom {
+    background-color: darkgreen;
+    position: sticky;
+    top: 240px;
+}
+
+/* Sticky value is another position value that keeps an element in the document flow as the user scrolls the page, but sticks to a 
+   specified position as the page is scrolled further. In the example the element will remain in it's relative position and scroll as usual.
+   When it reaches 240 pixels from the top it will stick to that position until it reaches the bottom of it's parent container when it will
+   unstick and rejoin the flow of the document. */
